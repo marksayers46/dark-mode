@@ -24,7 +24,9 @@ const App = () => {
       <Charts coinData={coinData} />
     </div>
   );
-}
+};
+
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+
